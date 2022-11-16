@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="">
-      Hello World!
+    <div>
+      <section className="image-background">
+        <Header />
+      </section>
     </div>
   );
 }
