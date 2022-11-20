@@ -583,10 +583,6 @@ video {
   flex-direction: column;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
 }
@@ -603,8 +599,8 @@ video {
   justify-content: space-around;
 }
 
-.gap-52 {
-  gap: 13rem;
+.gap-40 {
+  gap: 10rem;
 }
 
 .gap-10 {
@@ -703,7 +699,7 @@ body {
 }
 
 .main-text {
-  line-height: 3.8125rem;
+  line-height: 4.25rem;
   font-size: 3.125rem;
 }
 
