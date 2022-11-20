@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: Montserrat;
+}
+
 .image-background {
   background-image: url('./../assets/background.png');
   background-size: cover;
@@ -9,4 +13,8 @@
   
   width: 100%;
   min-height: 100vh;
+}
+
+.w-320 {
+  width: 80rem;
 }
