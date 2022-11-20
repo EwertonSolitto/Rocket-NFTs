@@ -3,7 +3,7 @@ const metaMaskLogo = require('../assets/logo_MetaMask.svg').default
 
 export default function Header() {
   return (
-    <header className="header grid gap-52 pt-14 h-28 max-w-7xl">
+    <header className="header grid gap-40 pt-14 h-28 max-w-7xl">
       <div className="flex items-center">
         <a href="/"><img src={logo} alt="Logo" width={265} height={43}/></a>
       </div>
