@@ -25,6 +25,32 @@ body {
   min-height: 100vh;
 }
 
+.header {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.meta-mask-button {
+  width: 14.375rem;
+  height: 3.125rem;
+}
+
 .w-320 {
   width: 80rem;
+}
+
+.px-auto {
+  padding-inline: auto;
+}
+
+.main {
+  grid-template-columns: 1fr 37.25rem 1fr;
+}
+
+.main-text {
+  line-height: 3.8125rem;
+  font-size: 3.125rem;
+}
+
+.logo-color {
+  color: var(--color-logo);
 }
