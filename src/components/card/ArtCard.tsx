@@ -1,4 +1,4 @@
-const topRightArrow = require('../../assets/arrow-white.svg').default
+const topRightWhiteArrow = require('../../assets/arrow-white.svg').default
 
 interface ArtCardProps {
   astronaut: string,
@@ -13,7 +13,7 @@ export default function ArtCard(props: ArtCardProps) {
     <div className="flex flex-col gap-6 mr-3">
       <div className="flex justify-between pb-5">
         <h2 className="text-3xl text-white font-medium">{props.astronaut}</h2>
-        <img src={topRightArrow} alt="seta mirando para o canto superior direito" width={25} height={25} />
+        <img src={topRightWhiteArrow} alt="Seta branca mirando para o canto superior direito" width={25} height={25} />
       </div>
       <div className="flex justify-between text-xl">
         <span className="text-gray-subtitle font-semibold">{props.name}</span>

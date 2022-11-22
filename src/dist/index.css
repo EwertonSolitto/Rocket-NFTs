@@ -655,6 +655,22 @@ video {
   gap: 1rem;
 }
 
+.gap-28 {
+  gap: 7rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -746,6 +762,14 @@ video {
 
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
 }
 
 .text-center {
