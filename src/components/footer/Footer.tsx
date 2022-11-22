@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="middle-footer grid">
-          <div className="gray-right-border pr-16 pt-16 pb-20">
+          <div className="gray-border-right pr-16 pt-16 pb-20">
             <p className="text-3xl text-white font-medium w-80">Fique por dentro de <span className="logo-color">todas as novidades</span></p>
             <div className="flex mt-8">
               <input type="text" placeholder="nft@rocketseat.com.br" className="input-footer text-xl p-5 w-72"/>
