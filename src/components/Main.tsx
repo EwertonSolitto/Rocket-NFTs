@@ -9,9 +9,9 @@ export default function Main () {
         <div className="main grid gap-10 text-white">
         <div className="flex">
           <div className="w-96">
-            <p className="text-lg pb-14 pt-2">
+            <h1 className="text-lg pb-14 pt-2">
               Mercado digital para colecionáveis em criptos e tokens não fungível (NFT). Compre, venda e descubra ativos digitais exclusivos para você.
-            </p>
+            </h1>
             <div className="flex gap-2">
               <img src={groupAvatars} alt="Grupo de avatares" />
               <div className="flex flex-col justify-end">
