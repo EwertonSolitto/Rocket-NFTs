@@ -748,14 +748,6 @@ video {
   padding-right: 2rem;
 }
 
-.pr-64 {
-  padding-right: 16rem;
-}
-
-.pr-72 {
-  padding-right: 18rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -875,6 +867,20 @@ body {
 
 .info-section {
   grid-template-columns: 17.5625rem 1fr;
+}
+
+.artist-card {
+  width: 21.875rem;
+  height: 9.375rem;
+  background-color: var(--card-color);
+}
+
+a.artist-card:hover,
+a.artist-card:focus,
+a.artist-card:hover .logo-color,
+a.artist-card:focus .logo-color  {
+  background-color: var(--color-logo);
+  color: white;
 }
 
 footer {
