@@ -22,9 +22,9 @@ export default function Footer() {
         <div className="middle-footer grid">
           <div className="middle-left-footer pr-16 pt-16 pb-20">
             <p className="text-3xl text-white font-medium w-80">Fique por dentro de <span className="logo-color">todas as novidades</span></p>
-            <div className="flex mt-6">
-              <input type="text" placeholder="nft@rocketseat.com.br" className="input-footer text-xl p-5"/>
-              <button type="button" className="font-bold bg-white p-5">Enviar</button>
+            <div className="flex mt-8">
+              <input type="text" placeholder="nft@rocketseat.com.br" className="input-footer text-xl p-5 w-72"/>
+              <button type="button" className="font-bold bg-white text-black py-5 pl-5 pr-8">Enviar</button>
             </div>
           </div>
           <div className="flex gap-32 items-center justify-center">
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-between pt-16">
           <p className="text-xl">www.rocketseat.com.br</p>
-          <div className="flex gap-12">
+          <div className="flex gap-12 ">
             <img src={instagram} alt="Logo Instagram" />
             <img src={youtube} alt="Logo Youtube" />
             <img src={twitter} alt="Logo Twitter" />
