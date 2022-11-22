@@ -41,6 +41,10 @@ body {
   width: 80rem;
 }
 
+.pr-68 {
+  padding-right: 17rem;
+}
+
 .max-w-8xl {
   max-width: 90rem;;
 }
