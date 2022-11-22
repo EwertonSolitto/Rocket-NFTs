@@ -22,7 +22,6 @@ body {
   background-position: center;
   
   width: 100%;
-  min-height: 100vh;
 }
 
 .header {
@@ -53,4 +52,38 @@ body {
 
 .logo-color {
   color: var(--color-logo);
+}
+
+footer {
+  background-color: var(--card-color);
+  color: var(--subtitle-color)
+}
+
+footer div {
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr;
+}
+
+.up-arrow {
+  background-color: var(--color-logo);
+  padding: 1.875rem;
+}
+
+.middle-footer {
+  grid-template-columns: 1fr 2fr;
+  border: var(--subtitle-color) 1px solid;
+  border-inline: 0;
+}
+
+.input-footer::placeholder {
+  color: var(--subtitle-color);
+}
+
+.input-footer {
+  background-color: var(--color-input);
+  color: #fff;
+}
+
+.middle-left-footer {
+  border-right: var(--subtitle-color) 1px solid;;
 }

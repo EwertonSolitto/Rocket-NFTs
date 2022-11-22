@@ -559,6 +559,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mr-16 {
+  margin-right: 4rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -575,12 +583,16 @@ video {
   width: 24rem;
 }
 
-.max-w-7xl {
-  max-width: 80rem;
+.w-full {
+  width: 100%;
 }
 
-.flex-row {
-  flex-direction: row;
+.w-80 {
+  width: 20rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-col {
@@ -599,6 +611,10 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
 }
@@ -615,16 +631,24 @@ video {
   gap: 0.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
-.gap-8 {
-  gap: 2rem;
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .border {
@@ -641,9 +665,18 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pt-14 {
@@ -666,13 +699,47 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-white {
@@ -699,7 +766,6 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 100vh;
 }
 
 .header {
@@ -730,4 +796,42 @@ body {
 
 .logo-color {
   color: var(--color-logo);
+}
+
+footer {
+  background-color: var(--card-color);
+  color: var(--subtitle-color)
+}
+
+footer div {
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr;
+}
+
+.up-arrow {
+  background-color: var(--color-logo);
+  padding: 1.875rem;
+}
+
+.middle-footer {
+  grid-template-columns: 1fr 2fr;
+  border: var(--subtitle-color) 1px solid;
+  border-inline: 0;
+}
+
+.input-footer::-webkit-input-placeholder {
+  color: var(--subtitle-color);
+}
+
+.input-footer::placeholder {
+  color: var(--subtitle-color);
+}
+
+.input-footer {
+  background-color: var(--color-input);
+  color: #fff;
+}
+
+.middle-left-footer {
+  border-right: var(--subtitle-color) 1px solid;
 }
