@@ -16,6 +16,10 @@ body {
   font-family: Montserrat;
 }
 
+.text-gray-subtitle {
+  color: var(--subtitle-color);
+}
+
 .image-background {
   background-image: url('./../assets/background.png');
   background-size: cover;
@@ -37,6 +41,10 @@ body {
   width: 80rem;
 }
 
+.max-w-8xl {
+  max-width: 90rem;;
+}
+
 .px-auto {
   padding-inline: auto;
 }
@@ -52,6 +60,14 @@ body {
 
 .logo-color {
   color: var(--color-logo);
+}
+
+.background-dark {
+  background-color: var(--body-background);
+}
+
+.info-section {
+  grid-template-columns: 17.5625rem 1fr;
 }
 
 footer {
@@ -84,6 +100,6 @@ footer div {
   color: #fff;
 }
 
-.middle-left-footer {
+.gray-right-border {
   border-right: var(--subtitle-color) 1px solid;;
 }
