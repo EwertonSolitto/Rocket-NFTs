@@ -12,6 +12,10 @@
 
 • TailwindCSS
 
+• Typescript
+
 <hr/>
 
 ## <a href="https://rocket-nfts-ewertonsolitto.vercel.app/">Link da página</a>
+
+<p>❗​Apenas funcionando no Desktop por enquanto❗</p>
