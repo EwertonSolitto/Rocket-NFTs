@@ -79,7 +79,7 @@ export default function Content() {
         <div className="flex justify-center">
           <a href="/" className="w-72 flex justify-between underline-offset-4 focus:underline hover:underline">
             <span className="text-xl">Ver todos os artistas</span>
-            <img src={topRightOrangeArrow} alt="Seta laranja mirando para o canto superior direito" />
+            <img src={topRightOrangeArrow} alt="Seta laranja mirando para o canto superior direito" width={25} height={25}/>
           </a>
         </div>
       </section>
