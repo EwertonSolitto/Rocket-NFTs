@@ -8,14 +8,14 @@ export default function Header() {
         <a href="/"><img src={logo} alt="Logo" width={265} height={43}/></a>
       </div>
       <nav className="flex items-center justify-center">
-        <ul className="flex items-center justify-around text-white text-lg">
-          <li><a href="/">Comprar NFT</a></li>
-          <li className="px-16"><a href="/">Sobre</a></li>
-          <li><a href="/">FAQ</a></li>
+        <ul className="flex items-center justify-around gap-16 text-white text-lg">
+          <li><a href="/" className="underline-offset-8 focus:underline hover:underline">Comprar NFT</a></li>
+          <li><a href="/" className="underline-offset-8 focus:underline hover:underline">Sobre</a></li>
+          <li><a href="/" className="underline-offset-8 focus:underline hover:underline">FAQ</a></li>
         </ul>
       </nav>
       <div className="flex items-center justify-end">
-        <button type="button" className="meta-mask-button flex justify-center align-center bg-white">
+        <button type="button" className="meta-mask-button flex justify-center align-center bg-white hover:bg-rose-500 focus:bg-rose-500 hover:text-white focus:text-white ease-out duration-300">
           <img src={metaMaskLogo} alt="Logo MetaMask" width={30} height={30}/>
           <div className="flex items-center font-bold pl-3">Conectar carteira</div>
         </button>
