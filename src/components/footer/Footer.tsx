@@ -1,11 +1,11 @@
+import Instagram from "../socialMediaLogos/Instagram"
+import Mail from "../socialMediaLogos/Mail"
+import Twitter from "../socialMediaLogos/Twitter"
+import Youtube from "../socialMediaLogos/Youtube"
+
 import FooterList from "./FooterList"
 
 const logo = require('../../assets/logo.svg').default
-const upArrow = require('../../assets/arrow-black.svg').default
-const instagram = require('../../assets/instagram.svg').default
-const youtube = require('../../assets/youtube.svg').default
-const twitter = require('../../assets/twitter.svg').default
-const email = require('../../assets/email.svg').default
 
 export default function Footer() {
   return (
@@ -14,8 +14,10 @@ export default function Footer() {
         <div className="flex justify-between pb-14">
           <img src={logo} alt="Logo" width={276} height={43}/>
           <div>
-            <button type="button" className="up-arrow bg-rose-500">
-              <img src={upArrow} alt="Uma seta virada para cima" width={23} height={23} />
+            <button type="button" className="up-arrow bg-rose-500 hover:bg-neutral-800 hover:fill-rose-500 ease-out duration-300">
+              <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.44174 6.70327L9.79825 22.676L13.1308 22.6016L12.7742 6.62889L20.0871 13.6224L22.3906 11.2138L10.9656 0.287669L0.0395174 11.7127L2.44818 14.0162L9.44174 6.70327Z" fill="black"/>
+              </svg>
             </button>
           </div>
         </div>
@@ -35,18 +37,18 @@ export default function Footer() {
         </div>
         <div className="flex items-center justify-between pt-16">
           <a href="https://www.rocketseat.com.br" className="text-xl">www.rocketseat.com.br</a>
-          <div className="flex gap-12 ">
+          <div className="social-media-logos flex gap-12 ">
             <a href="/">
-              <img src={instagram} alt="Logo Instagram" />
+              <Instagram />
             </a>
             <a href="/">
-              <img src={youtube} alt="Logo Youtube" />
+              <Youtube />
             </a>
             <a href="/">
-              <img src={twitter} alt="Logo Twitter" />
+              <Twitter />
             </a>
             <a href="/">
-              <img src={email} alt="Email" />
+              <Mail />
             </a>
           </div>
         </div>
