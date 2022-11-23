@@ -10,10 +10,10 @@ export default function FooterList(props: LinkList) {
   return (
     <ul className="flex flex-col gap-2 text-xl">
       <li className="text-white font-bold">{props.title}</li>
-      <li><a href="/">{props.link1}</a></li>
-      <li><a href="/">{props.link2}</a></li>
-      <li><a href="/">{props.link3}</a></li>
-      <li><a href="/">{props.link4}</a></li>
+      <li><a href="/" className="focus:text-white hover:text-white duration-300 ease-out">{props.link1}</a></li>
+      <li><a href="/" className="focus:text-white hover:text-white duration-300 ease-out">{props.link2}</a></li>
+      <li><a href="/" className="focus:text-white hover:text-white duration-300 ease-out">{props.link3}</a></li>
+      <li><a href="/" className="focus:text-white hover:text-white duration-300 ease-out">{props.link4}</a></li>
     </ul>
   )
 }
