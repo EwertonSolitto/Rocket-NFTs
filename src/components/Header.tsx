@@ -15,9 +15,9 @@ export default function Header() {
         </ul>
       </nav>
       <div className="flex items-center justify-end">
-        <button type="button" className="meta-mask-button flex justify-center align-center bg-white hover:bg-rose-500 focus:bg-rose-500 hover:text-white focus:text-white ease-out duration-300">
+        <button type="button" className="meta-mask-button flex justify-center items-center bg-white hover:bg-rose-500 focus:bg-rose-500 hover:text-white focus:text-white ease-out duration-300">
           <img src={metaMaskLogo} alt="Logo MetaMask" width={30} height={30}/>
-          <div className="flex items-center font-bold pl-3">Conectar carteira</div>
+          <span className="flex items-center font-bold pl-3">Conectar carteira</span>
         </button>
       </div>
     </header>
