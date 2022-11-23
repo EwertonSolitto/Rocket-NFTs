@@ -64,7 +64,7 @@ export default function Content() {
       </section>
       <section className="max-w-7xl w-full pt-20 pb-36">
         <h2 className="text-5xl font-bold text-center pb-32">Melhores <span className="text-rose-500">Artistas</span></h2>
-        <div className="flex flex-col gap-28">
+        <div className="flex flex-col gap-28 pb-14">
           <div className="flex justify-between">
             <ArtistCard name="Mayk Brito" photographQuantity={80} src={artist1} alt="Foto do perfil de Mayk Brito"/>
             <ArtistCard name="Jakeliny G." photographQuantity={99} src={artist2} alt="Foto do perfil de Jakeliny G."/>
@@ -76,10 +76,12 @@ export default function Content() {
             <ArtistCard name="Diego F." photographQuantity={20} src={artist6} alt="Foto do perfil de Diego F."/>
           </div>
         </div>
-        <a href="/" className="flex justify-center gap-8 pt-14">
-          <span className="text-xl">Ver todos os artistas</span>
-          <img src={topRightOrangeArrow} alt="Seta laranja mirando para o canto superior direito" />
-        </a>
+        <div className="flex justify-center">
+          <a href="/" className="w-72 flex justify-between underline-offset-4 focus:underline hover:underline">
+            <span className="text-xl">Ver todos os artistas</span>
+            <img src={topRightOrangeArrow} alt="Seta laranja mirando para o canto superior direito" />
+          </a>
+        </div>
       </section>
     </div>
   )
