@@ -23,8 +23,8 @@ export default function Footer() {
           <div className="border-r border-r-neutral-600 pr-16 pt-16 pb-20">
             <p className="text-3xl text-white font-medium w-80">Fique por dentro de <span className="text-rose-500">todas as novidades</span></p>
             <div className="flex mt-8">
-              <input type="text" placeholder="nft@rocketseat.com.br" className="bg-neutral-900 text-white text-xl p-5 w-72 placeholder:text-neutral-500"/>
-              <button type="button" className="font-bold bg-white text-black py-5 pl-5 pr-8">Enviar</button>
+              <input type="text" placeholder="nft@rocketseat.com.br" className="bg-neutral-900 text-white text-xl p-5 w-72 placeholder:text-neutral-500 outline-none focus:outline-white"/>
+              <button type="button" className="font-bold bg-white text-black text-xl py-5 pl-5 pr-5">Enviar</button>
             </div>
           </div>
           <div className="flex gap-32 items-center justify-center">
@@ -34,12 +34,20 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex items-center justify-between pt-16">
-          <p className="text-xl">www.rocketseat.com.br</p>
+          <a href="https://www.rocketseat.com.br" className="text-xl">www.rocketseat.com.br</a>
           <div className="flex gap-12 ">
-            <img src={instagram} alt="Logo Instagram" />
-            <img src={youtube} alt="Logo Youtube" />
-            <img src={twitter} alt="Logo Twitter" />
-            <img src={email} alt="Email" />
+            <a href="/">
+              <img src={instagram} alt="Logo Instagram" />
+            </a>
+            <a href="/">
+              <img src={youtube} alt="Logo Youtube" />
+            </a>
+            <a href="/">
+              <img src={twitter} alt="Logo Twitter" />
+            </a>
+            <a href="/">
+              <img src={email} alt="Email" />
+            </a>
           </div>
         </div>
       </div>

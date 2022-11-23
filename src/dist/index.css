@@ -828,6 +828,14 @@ video {
   padding-bottom: 13rem;
 }
 
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -906,6 +914,51 @@ video {
 
 .underline-offset-4 {
   text-underline-offset: 4px;
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.outline-dashed {
+  outline-style: dashed;
+}
+
+.outline-dotted {
+  outline-style: dotted;
+}
+
+.outline-double {
+  outline-style: double;
+}
+
+.outline-0 {
+  outline-width: 0px;
+}
+
+.outline-1 {
+  outline-width: 1px;
+}
+
+.outline-2 {
+  outline-width: 2px;
+}
+
+.outline-8 {
+  outline-width: 8px;
+}
+
+.outline-offset-1 {
+  outline-offset: 1px;
+}
+
+.outline-white {
+  outline-color: #fff;
+}
+
+.outline-current {
+  outline-color: currentColor;
 }
 
 .transition-all {
@@ -1080,6 +1133,15 @@ footer div {
   transition-timing-function: linear;
 }
 
+.focus\:border:focus {
+  border-width: 1px;
+}
+
+.focus\:border-white:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .focus\:bg-neutral-600:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(90 87 87 / var(--tw-bg-opacity));
@@ -1097,4 +1159,25 @@ footer div {
 
 .focus\:underline:focus {
   text-decoration-line: underline;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:outline-double:focus {
+  outline-style: double;
+}
+
+.focus\:outline-0:focus {
+  outline-width: 0px;
+}
+
+.focus\:outline-1:focus {
+  outline-width: 1px;
+}
+
+.focus\:outline-white:focus {
+  outline-color: #fff;
 }
