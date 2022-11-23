@@ -65,3 +65,11 @@ footer div {
 .middle-footer {
   grid-template-columns: 1fr 2fr;
 }
+
+.footer-social-media-logo:hover path,
+.footer-social-media-logo:focus path {
+  stroke: white;
+
+  transition-duration: 300ms;
+  transition-timing-function: ease-out;
+}
