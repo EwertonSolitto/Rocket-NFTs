@@ -19,30 +19,30 @@ const topRightOrangeArrow = require('../assets/arrow-orange.svg').default
 
 export default function Content() {
   return (
-    <div className="flex flex-col items-center background-dark w-full text-white">
-      <section className="grid info-section max-w-8xl gray-border-bottom">
-        <div className="flex flex-col items-center justify-center gap-16 gray-border-right">
+    <div className="flex flex-col items-center bg-stone-900 w-full text-white">
+      <section className="grid info-section max-w-8xl border-y border-y-neutral-600">
+        <div className="flex flex-col items-center justify-center gap-16 border-r border-r-neutral-600">
           <div>
             <h2 className="text-5xl font-semibold text-center pt-1">10K+</h2>
-            <p className="text-xl font-semibold text-center text-gray-subtitle">Artes</p>
+            <p className="text-xl font-semibold text-center text-neutral-600">Artes</p>
           </div>
           <div>
             <h2 className="text-5xl font-semibold text-center pt-1">200+</h2>
-            <p className="text-xl font-semibold text-center text-gray-subtitle">Vendas</p>
+            <p className="text-xl font-semibold text-center text-neutral-600">Vendas</p>
           </div>
           <div>
             <h2 className="text-5xl font-semibold text-center pt-1">20</h2>
-            <p className="text-xl font-semibold text-center text-gray-subtitle">Artistas</p>
+            <p className="text-xl font-semibold text-center text-neutral-600">Artistas</p>
           </div>
         </div>
         <div className="pt-16">
           <div className="flex gap-32 pl-16 pb-16 text-lg">
             <div>
-              <p className="pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <span className="logo-color">potenti diam</span> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+              <p className="pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <span className="text-rose-500">potenti diam</span> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
               <span className="underline">Lorem ipsum</span>
             </div>
             <div>
-              <p className="pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <span className="logo-color">potenti diam</span> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
+              <p className="pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue malesuada amet pretium lacus. Id <span className="text-rose-500">potenti diam</span> et cras odio viverra. Amet, velit ut hac sit. Enim ultricies mauris mattis nunc semper.</p>
               <span className="underline">Lorem ipsum</span>
             </div>
           </div>
@@ -50,9 +50,9 @@ export default function Content() {
         </div>
       </section>
       <section className="max-w-7xl w-full pb-16">
-        <h2 className="text-5xl font-bold py-40"><span className="logo-color">Populares</span> da Semana</h2>
+        <h2 className="text-5xl font-bold py-40"><span className="text-rose-500">Populares</span> da Semana</h2>
         <div className="flex items-center justify-between">
-          <div className="flex flex-col gap-12 pr-68 gray-border-right">
+          <div className="flex flex-col gap-12 pr-68 border-r border-r-neutral-600">
             <ArtCard astronaut="Astronauta 1" name="Mayk Brito" price={1.50} src={astronaut1} alt='Imagem do astronauta 1'/>
             <ArtCard astronaut="Astronauta 2" name="Jakeliny Gracielly" price={2.0} src={astronaut2} alt='Imagem do astronauta 2'/>
           </div>
@@ -63,7 +63,7 @@ export default function Content() {
         </div>
       </section>
       <section className="max-w-7xl w-full pt-20 pb-36">
-        <h2 className="text-5xl font-bold text-center pb-32">Melhores <span className="logo-color">Artistas</span></h2>
+        <h2 className="text-5xl font-bold text-center pb-32">Melhores <span className="text-rose-500">Artistas</span></h2>
         <div className="flex flex-col gap-28">
           <div className="flex justify-between">
             <ArtistCard name="Mayk Brito" photographQuantity={80} src={artist1} alt="Foto do perfil de Mayk Brito"/>

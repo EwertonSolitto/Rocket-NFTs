@@ -22,7 +22,7 @@ export default function Main () {
           </div>
         </div>
         <div>
-            <p className="main-text font-bold">Descubra a verdadeira arte digital e      colecione diversas <span className="logo-color">NFTs</span></p>         
+            <p className="main-text font-bold">Descubra a verdadeira arte digital e      colecione diversas <span className="text-rose-500">NFTs</span></p>         
         </div>
         <div className="flex items-center justify-end">
           <img src={badge} alt="Medalha Explore a Arte" width={200} height={200}/>

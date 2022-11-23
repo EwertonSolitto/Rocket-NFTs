@@ -9,21 +9,21 @@ const email = require('../../assets/email.svg').default
 
 export default function Footer() {
   return (
-    <footer className="w-full flex justify-center pt-20 pb-16">
+    <footer className="w-full flex justify-center pt-20 pb-16 bg-neutral-800 text-neutral-600">
       <div className="grid max-w-7xl">
         <div className="flex justify-between pb-14">
           <img src={logo} alt="Logo" width={276} height={43}/>
           <div>
-            <button type="button" className="up-arrow">
-              <img src={upArrow} alt="Uma seta virada para cima" width={23} height={23}/>
+            <button type="button" className="up-arrow bg-rose-500">
+              <img src={upArrow} alt="Uma seta virada para cima" width={23} height={23} />
             </button>
           </div>
         </div>
-        <div className="middle-footer grid">
-          <div className="gray-border-right pr-16 pt-16 pb-20">
-            <p className="text-3xl text-white font-medium w-80">Fique por dentro de <span className="logo-color">todas as novidades</span></p>
+        <div className="middle-footer grid border-y border-y-neutral-600">
+          <div className="border-r border-r-neutral-600 pr-16 pt-16 pb-20">
+            <p className="text-3xl text-white font-medium w-80">Fique por dentro de <span className="text-rose-500">todas as novidades</span></p>
             <div className="flex mt-8">
-              <input type="text" placeholder="nft@rocketseat.com.br" className="input-footer text-xl p-5 w-72"/>
+              <input type="text" placeholder="nft@rocketseat.com.br" className="bg-neutral-900 text-white text-xl p-5 w-72 placeholder:text-neutral-500"/>
               <button type="button" className="font-bold bg-white text-black py-5 pl-5 pr-8">Enviar</button>
             </div>
           </div>

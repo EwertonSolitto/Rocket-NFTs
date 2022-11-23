@@ -16,8 +16,8 @@ export default function ArtCard(props: ArtCardProps) {
         <img src={topRightWhiteArrow} alt="Seta branca mirando para o canto superior direito" width={25} height={25} />
       </div>
       <div className="flex justify-between text-xl">
-        <span className="text-gray-subtitle font-semibold">{props.name}</span>
-        <span className="logo-color">{props.price} RKT</span>
+        <span className="text-neutral-600 font-semibold">{props.name}</span>
+        <span className="text-rose-500">{props.price} RKT</span>
       </div>
       <img src={props.src} alt={props.alt} />
     </div>

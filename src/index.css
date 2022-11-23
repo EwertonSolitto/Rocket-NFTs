@@ -2,24 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --body-background: #0e0e0e;
-  --color-logo: #ff5b50;
-  --card-color: #252525;
-  --text-color: #fff;
-  --subtitle-color: #5a5757;
-  --black-text: #000;
-  --color-input: #0D0D0D;
-}
-
-body {
-  font-family: Montserrat;
-}
-
-.text-gray-subtitle {
-  color: var(--subtitle-color);
-}
-
 .image-background {
   background-image: url('./../assets/background.png');
   background-size: cover;
@@ -46,7 +28,7 @@ body {
 }
 
 .max-w-8xl {
-  max-width: 90rem;;
+  max-width: 90rem;
 }
 
 .px-auto {
@@ -62,14 +44,6 @@ body {
   font-size: 3.125rem;
 }
 
-.logo-color {
-  color: var(--color-logo);
-}
-
-.background-dark {
-  background-color: var(--body-background);
-}
-
 .info-section {
   grid-template-columns: 17.5625rem 1fr;
 }
@@ -77,22 +51,7 @@ body {
 .artist-card {
   width: 21.875rem;
   height: 9.375rem;
-
-  background-color: var(--card-color);
-}
-
-a.artist-card:hover,
-a.artist-card:focus,
-a.artist-card:hover .logo-color,
-a.artist-card:focus .logo-color  {
-  background-color: var(--color-logo);
-  color: white;
-}
-
-footer {
-  background-color: var(--card-color);
-  color: var(--subtitle-color)
-}
+} 
 
 footer div {
   grid-column: 1fr 1fr 1fr;
@@ -100,29 +59,9 @@ footer div {
 }
 
 .up-arrow {
-  background-color: var(--color-logo);
   padding: 1.875rem;
 }
 
 .middle-footer {
   grid-template-columns: 1fr 2fr;
-  border: var(--subtitle-color) 1px solid;
-  border-inline: 0;
-}
-
-.input-footer::placeholder {
-  color: var(--subtitle-color);
-}
-
-.input-footer {
-  background-color: var(--color-input);
-  color: #fff;
-}
-
-.gray-border-right {
-  border-right: var(--subtitle-color) 1px solid;
-}
-
-.gray-border-bottom {
-  border-bottom: var(--subtitle-color) 1px solid;
 }
