@@ -9,9 +9,13 @@ const logo = require('../../assets/logo.svg').default
 
 function toTop() {
   window.scrollBy(0, -document.body.scrollHeight)
-  console.log(window.focus)
+  focusFirstAnchor()
 }
- 
+
+function focusFirstAnchor() {
+  document.getElementById('header-logo')?.focus()
+}
+
 export default function Footer() {
   return (
     <footer className="w-full flex justify-center pt-20 pb-16 bg-neutral-800 text-neutral-600">

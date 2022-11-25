@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="header grid gap-40 pt-14 h-28 max-w-7xl">
       <div className="flex items-center">
-        <a href="/"><img src={logo} alt="Logo" width={265} height={43}/></a>
+        <a href="/" id="header-logo"><img src={logo} alt="Logo" width={265} height={43}/></a>
       </div>
       <nav className="flex items-center justify-center">
         <ul className="flex items-center justify-around gap-16 text-white text-lg">
