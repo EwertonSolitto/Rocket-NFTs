@@ -713,6 +713,18 @@ video {
   background-color: rgb(13 13 13 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\.\/\.\.\/assets\/background\.png\'\)\] {
+  background-image: url('./../assets/background.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -878,13 +890,6 @@ video {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.image-background {
-  background-image: url('./../assets/background.png');
-  background-size: cover;
-  background-position: center;
-  width: 100%;
 }
 
 .header {
