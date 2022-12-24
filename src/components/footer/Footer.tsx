@@ -2,6 +2,7 @@ import Instagram from "../socialMediaLogos/Instagram"
 import Mail from "../socialMediaLogos/Mail"
 import Twitter from "../socialMediaLogos/Twitter"
 import Youtube from "../socialMediaLogos/Youtube"
+import ArrowBlack from "../svgs/ArrowBlack"
 
 import FooterList from "./FooterList"
 
@@ -24,9 +25,7 @@ export default function Footer() {
           <img src={logo} alt="Logo" width={276} height={43}/>
           <div>
             <button type="button" className="up-arrow bg-rose-500" onClick={toTop}>
-              <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.44174 6.70327L9.79825 22.676L13.1308 22.6016L12.7742 6.62889L20.0871 13.6224L22.3906 11.2138L10.9656 0.287669L0.0395174 11.7127L2.44818 14.0162L9.44174 6.70327Z" fill="black"/>
-              </svg>
+              <ArrowBlack width={23} height={23} />
             </button>
           </div>
         </div>

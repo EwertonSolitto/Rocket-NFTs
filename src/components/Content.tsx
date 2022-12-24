@@ -1,5 +1,6 @@
 import ArtCard from "./card/ArtCard"
 import ArtistCard from "./card/ArtistCard"
+import ArrowOrange from "./svgs/ArrowOrange"
 
 const banner = require('../assets/banner.png')
 
@@ -14,8 +15,6 @@ const artist3 = require('../assets/artista-3.png')
 const artist4 = require('../assets/artista-4.png')
 const artist5 = require('../assets/artista-5.png')
 const artist6 = require('../assets/artista-6.png')
-
-const topRightOrangeArrow = require('../assets/arrow-orange.svg').default
 
 export default function Content() {
   return (
@@ -79,7 +78,7 @@ export default function Content() {
         <div className="flex justify-center">
           <a href="/" className="w-72 flex justify-between underline-offset-4 focus:underline hover:underline">
             <span className="text-xl">Ver todos os artistas</span>
-            <img src={topRightOrangeArrow} alt="Seta laranja mirando para o canto superior direito" width={25} height={25}/>
+            <ArrowOrange width={25} height={26}/>
           </a>
         </div>
       </section>

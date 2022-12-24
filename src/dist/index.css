@@ -935,11 +935,6 @@ video {
   height: 9.375rem;
 }
 
-footer div {
-  grid-column: 1fr 1fr 1fr;
-  grid-row: 1fr 1fr 1fr;
-}
-
 .up-arrow {
   padding: 1.875rem;
 }
