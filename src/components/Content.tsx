@@ -1,6 +1,6 @@
 import ArtCard from "./card/ArtCard"
 import ArtistCard from "./card/ArtistCard"
-import ArrowOrange from "./svgs/ArrowOrange"
+import ArrowOrange from "./svgs/arrows/ArrowOrange"
 
 const banner = require('../assets/banner.png')
 

@@ -1,12 +1,11 @@
-import Instagram from "../socialMediaLogos/Instagram"
-import Mail from "../socialMediaLogos/Mail"
-import Twitter from "../socialMediaLogos/Twitter"
-import Youtube from "../socialMediaLogos/Youtube"
-import ArrowBlack from "../svgs/ArrowBlack"
+import Instagram from "../svgs/socialMediaLogos/Instagram"
+import Mail from "../svgs/socialMediaLogos/Mail"
+import Twitter from "../svgs/socialMediaLogos/Twitter"
+import Youtube from "../svgs/socialMediaLogos/Youtube"
+import ArrowBlack from "../svgs/arrows/ArrowBlack"
 
 import FooterList from "./FooterList"
-
-const logo = require('../../assets/logo.svg').default
+import RocketBlogLogo from "../svgs/logos/RocketBlogLogo"
 
 function toTop() {
   window.scrollBy(0, -document.body.scrollHeight)
@@ -22,7 +21,7 @@ export default function Footer() {
     <footer className="w-full flex justify-center pt-20 pb-16 bg-neutral-800 text-neutral-600">
       <div className="grid max-w-7xl">
         <div className="flex justify-between pb-14">
-          <img src={logo} alt="Logo" width={276} height={43}/>
+          <RocketBlogLogo width={276} height={43}/>
           <div>
             <button type="button" className="up-arrow bg-rose-500" onClick={toTop}>
               <ArrowBlack width={23} height={23} />

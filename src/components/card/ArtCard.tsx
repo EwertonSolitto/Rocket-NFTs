@@ -1,4 +1,4 @@
-import ArrowWhite from "../svgs/ArrowWhite"
+import ArrowWhite from "../svgs/arrows/ArrowWhite"
 
 interface ArtCardProps {
   astronaut: string,

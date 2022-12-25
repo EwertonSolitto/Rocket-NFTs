@@ -1,4 +1,4 @@
-import { SvgInterface } from "../Interfaces/SvgInterface";
+import { SvgInterface } from "../../Interfaces/SvgInterface";
 
 export default function ArrowWhite(props: SvgInterface) {
   return(
