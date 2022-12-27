@@ -1,12 +1,18 @@
-# Rocket-NFTs
+# Rocket-NFTs 🚀
 
-<p>Desafio Rocketseat com o objetivo de passar um layout do Figma para o navegador usando HTML e CSS, mas nesse projeto escolhi utilizar ReactJS para colocar todo meu conhecimento no código e ter uma grande otimização de tempo na hora de codar.</p>
+[![LICENSE](https://img.shields.io/npm/l/react)](https://github.com/EwertonSolitto/Rocket-NFTs/blob/main/LICENSE)
 
-## O que é a Rocket-NFTs?
+❗Just working on Desktop at this moment❗
 
-<p>A Rocket-NFTs é um site onde você compra, vende e coleciona criptos e tokens não fungível (NFT), e feita para descobrir ativos digitais exclusivos.</p>
+## About 📝
 
-## Tecnologias utilizadas
+https://rocket-nfts-ewertonsolitto.vercel.app/
+
+[Rocketseat](https://app.rocketseat.com.br) challenge made to copy a Figma layout to the browser using **HTML** and **CSS**, but in this project, I chose to use **ReactJS** to show my skills in code
+
+Rocket-NFTs is a website where you buy, sell and collect cryptos and non-fungible tokens (NFT), and made to discover unique digital assets.
+
+## Technologies ⚡
 
 • ReactJS
 
@@ -14,8 +20,3 @@
 
 • Typescript
 
-<hr/>
-
-## <a href="https://rocket-nfts-ewertonsolitto.vercel.app/">Link da página</a>
-
-<p>❗​Apenas funcionando no Desktop por enquanto❗</p>
