@@ -8,7 +8,7 @@
 
 https://rocket-nfts-ewertonsolitto.vercel.app/
 
-[Rocketseat](https://app.rocketseat.com.br) challenge made to copy a Figma layout to the browser using **HTML** and **CSS**, but in this project, I chose to use **ReactJS** to show my skills in code
+[Rocketseat](https://app.rocketseat.com.br) challenge made to copy a Figma layout to the browser using **HTML** and **CSS**, but in this project, I chose to use **ReactJS** to show my skills in code.
 
 Rocket-NFTs is a website where you buy, sell and collect cryptos and non-fungible tokens (NFT), and made to discover unique digital assets.
 
