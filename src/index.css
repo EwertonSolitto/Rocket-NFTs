@@ -23,6 +23,10 @@
   font-size: 3rem;
 }
 
+.neutral-line {
+  width: 92svw;
+}
+
 .artist-card {
   width: 21.875rem;
   height: 9.375rem;
@@ -48,6 +52,10 @@
   .main, header, section > div, footer {
     width: 46rem;
   }
+
+  .neutral-line {
+    width: 46rem;
+  }
 }
 
 @media (min-width: 824px) {
@@ -57,6 +65,10 @@
 
   .main {
     grid-template-columns: 2fr 2fr 1fr;
+  }
+
+  .neutral-line {
+    width: 48rem;
   }
 }
 
@@ -76,6 +88,10 @@
 
   .info-section {
     grid-template-columns: 17.5625rem 1fr;
+  }
+
+  .neutral-line {
+    height: 44.5rem;
   }
 }
 
