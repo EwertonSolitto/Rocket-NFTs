@@ -23,10 +23,6 @@
   font-size: 3rem;
 }
 
-.info-section {
-  grid-template-columns: 17.5625rem 1fr;
-}
-
 .artist-card {
   width: 21.875rem;
   height: 9.375rem;
@@ -49,13 +45,13 @@
 }
 
 @media (min-width: 768px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 46rem;
   }
 }
 
 @media (min-width: 824px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 48rem;
   }
 
@@ -65,7 +61,7 @@
 }
 
 @media (min-width: 1024px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 56rem;
   }
 
@@ -77,10 +73,14 @@
     line-height: 2.75rem;
     font-size: 2.25rem;
   }
+
+  .info-section {
+    grid-template-columns: 17.5625rem 1fr;
+  }
 }
 
 @media (min-width: 1140px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 64rem;
   }
 
@@ -91,7 +91,7 @@
 }
 
 @media (min-width: 1250px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 75rem;
   }
 
@@ -102,7 +102,7 @@
 }
 
 @media (min-width: 1380px) {
-  .main, header {
+  .main, header, section > div, footer {
     width: 82.75rem;
   }
 
