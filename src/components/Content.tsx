@@ -51,7 +51,7 @@ export default function Content() {
         </div>
       </section>
       <section className="flex flex-col items-center bg-stone-900 w-full text-white">
-        <div className="pb-16 md:px-0 px-3">
+        <div className="md:pb-16 pb-8 md:px-0 px-3">
           <h2 className="text-5xl font-bold md:py-40 sm:py-24 py-20"><span className="text-rose-500">Populares</span> da Semana</h2>
           <div className="flex lg:flex-row flex-col items-center justify-between lg:gap-0 gap-16">
             <div className="flex lg:flex-col sm:flex-row flex-col gap-12">
@@ -67,19 +67,15 @@ export default function Content() {
         </div>
       </section>
       <section className="flex flex-col items-center bg-stone-900 w-full text-white">
-        <div className="max-w-7xl w-full pt-20 pb-36">
-          <h2 className="text-5xl font-bold text-center pb-32">Melhores <span className="text-rose-500">Artistas</span></h2>
-          <div className="flex flex-col gap-28 pb-14">
-            <div className="flex justify-between">
+        <div className="md:pt-20 pt-16 md:pb-36 pb-20">
+          <h2 className="text-5xl font-bold text-center md:pb-32 pb-20">Melhores <span className="text-rose-500">Artistas</span></h2>
+          <div className="grid xl:grid-cols-3 md:grid-cols-2 2xl:gap-28 xl:gap-24 gap-12 items-center pb-14">
               <ArtistCard name="Mayk Brito" photographQuantity={80} src={artist1} alt="Foto do perfil de Mayk Brito"/>
               <ArtistCard name="Jakeliny G." photographQuantity={99} src={artist2} alt="Foto do perfil de Jakeliny G."/>
               <ArtistCard name="João I. (Biro)" photographQuantity={50} src={artist3} alt="Foto do perfil de João I. (Biro)"/>
-            </div>
-            <div className="flex justify-between">
               <ArtistCard name="Tamires Santos" photographQuantity={43} src={artist4} alt="Foto do perfil de Tamires Santos"/>
               <ArtistCard name="Ana Silva" photographQuantity={28} src={artist5} alt="Foto do perfil de Ana Silva"/>
               <ArtistCard name="Diego F." photographQuantity={20} src={artist6} alt="Foto do perfil de Diego F."/>
-            </div>
           </div>
           <div className="flex justify-center">
             <a href="/" className="w-72 flex justify-between underline-offset-4 focus:underline hover:underline">

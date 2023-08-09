@@ -23,13 +23,12 @@
   font-size: 3rem;
 }
 
-.neutral-line {
-  width: 92svw;
+.artist-card {
+  margin-inline: auto;
 }
 
-.artist-card {
-  width: 21.875rem;
-  height: 9.375rem;
+.neutral-line {
+  width: 92svw;
 }
 
 .up-arrow {
@@ -48,6 +47,13 @@
   transition-timing-function: ease-out;
 }
 
+@media (min-width: 420px) {
+  .artist-card {
+    width: 21.875rem;
+    height: 9.375rem;
+  }
+}
+
 @media (min-width: 768px) {
   .main, header, section > div, footer {
     width: 46rem;
@@ -55,6 +61,10 @@
 
   .neutral-line {
     width: 46rem;
+  }
+
+  .artist-card:nth-child(2n) {
+    margin-left: auto;
   }
 }
 
