@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.header {
-  grid-template-columns: 1fr 2fr 1fr;
-}
-
-.meta-mask-button {
-  width: 14.375rem;
-  height: 3.125rem;
-}
-
 .w-320 {
   width: 80rem;
 }
@@ -27,13 +18,9 @@
   padding-inline: auto;
 }
 
-.main {
-  grid-template-columns: 1fr 37.25rem 1fr;
-}
-
 .main-text {
-  line-height: 4.25rem;
-  font-size: 3.125rem;
+  line-height: 3.5rem;
+  font-size: 3rem;
 }
 
 .info-section {
@@ -59,4 +46,67 @@
 
   transition-duration: 300ms;
   transition-timing-function: ease-out;
+}
+
+@media (min-width: 768px) {
+  .main, header {
+    width: 46rem;
+  }
+}
+
+@media (min-width: 824px) {
+  .main, header {
+    width: 48rem;
+  }
+
+  .main {
+    grid-template-columns: 2fr 2fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main, header {
+    width: 56rem;
+  }
+
+  .main {
+    grid-template-columns: 2fr 2fr 1fr;
+  }
+
+  .main-text {
+    line-height: 2.75rem;
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1140px) {
+  .main, header {
+    width: 64rem;
+  }
+
+  .main-text {
+    line-height: 3.25rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .main, header {
+    width: 75rem;
+  }
+
+  .main-text {
+    line-height: 4.25rem;
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  .main, header {
+    width: 82.75rem;
+  }
+
+  .main {
+    grid-template-columns: 2fr 3fr 1fr;
+  }
 }
