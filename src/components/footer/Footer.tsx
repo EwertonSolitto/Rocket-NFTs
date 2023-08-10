@@ -8,12 +8,10 @@ import FooterList from "./FooterList"
 import RocketBlogLogo from "../svgs/logos/RocketBlogLogo"
 
 function toTop() {
-  window.scrollBy(0, -document.body.scrollHeight)
-  focusFirstAnchor()
-}
-
-function focusFirstAnchor() {
-  document.getElementById('header-logo')?.focus()
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 }
 
 export default function Footer() {
