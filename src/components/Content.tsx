@@ -23,15 +23,15 @@ export default function Content() {
         <div className="grid info-section md:px-0 px-3">
         <div className="flex lg:flex-col items-center justify-center md:gap-16 gap-8 lg:border-r lg:border-r-neutral-600 lg:border-b-0 border-b border-b-neutral-600 lg:py-0 py-6">
           <div>
-            <h2 className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">10K+</h2>
+            <p className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">10K+</p>
             <p className="md:text-xl text-base font-semibold text-center text-neutral-600">Artes</p>
           </div>
           <div>
-            <h2 className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">200+</h2>
+            <p className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">200+</p>
             <p className="md:text-xl text-base font-semibold text-center text-neutral-600">Vendas</p>
           </div>
           <div>
-            <h2 className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">20</h2>
+            <p className="md:text-5xl sm:text-4xl text-3xl font-semibold text-center pt-1">20</p>
             <p className="md:text-xl text-base font-semibold text-center text-neutral-600">Artistas</p>
           </div>
         </div>
