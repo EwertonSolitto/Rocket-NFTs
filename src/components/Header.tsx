@@ -24,10 +24,10 @@ export default function Header() {
         <span className="flex items-center font-bold lg:pl-3 pl-2">Conectar carteira</span>
       </button>
       <div className="md:hidden ml-auto">
-        <button onClick={() => {setMenu(() => {return 'absolute'})}} className={menu === 'hidden' ? "block" : 'hidden'}>
+        <button onClick={() => {setMenu(() => {return 'absolute'})}} className={menu === 'hidden' ? "block" : 'hidden'} aria-label="Open menu" aria-labelledby="Abrir menu">
           <OpenMenu />
         </button>
-        <button onClick={() => {setMenu(() => {return 'hidden'})}} className={menu === 'hidden' ? "hidden" : 'block'}>
+        <button onClick={() => {setMenu(() => {return 'hidden'})}} className={menu === 'hidden' ? "hidden" : 'block'} aria-label="Close menu" aria-labelledby="Fechar menu">
           <CloseMenu />
         </button>
       </div>

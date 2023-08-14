@@ -19,7 +19,7 @@ export default function ArtCard(props: ArtCardProps) {
         <span className="text-neutral-600 font-semibold">{props.name}</span>
         <span className="text-rose-500">{props.price} RKT</span>
       </div>
-      <img src={props.src} alt={props.alt} />
+      <img src={props.src} alt={props.alt} width={350} height={200}/>
     </a>
   )
 }

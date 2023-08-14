@@ -13,7 +13,7 @@ export default function Main () {
               Mercado digital para colecionáveis em criptos e tokens não fungível (NFT). Compre, venda e descubra ativos digitais exclusivos para você.
             </p>
             <div className="flex gap-2 lg:flex-row md:flex-col">
-              <img src={groupAvatars} alt="Grupo de avatares" className="lg:h-auto md:h-20 md:w-40" />
+              <img src={groupAvatars} alt="Grupo de avatares" className="lg:h-auto md:h-20 md:w-40" width={160} height={84}/>
               <div className="flex flex-col justify-end">
                 <span className="lg:text-lg md:text-base text-lg font-bold">+10</span>
                 <span className="lg:text-lg md:text-base text-lg">Artistas selecionados</span>
