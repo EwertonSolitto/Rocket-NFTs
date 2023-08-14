@@ -1,6 +1,6 @@
 export default function MetaMaskLogo() {
   return (
-    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="MetaMask Logo">
       <path d="M25.8098 3.34275L16.4407 10.3013L18.1733 6.19586L25.8098 3.34275Z" fill="#E2761B" stroke="#E2761B" strokeLinecap="round" strokeLinejoin="round"/>
       <path d="M4.18079 3.34275L13.4746 10.3672L11.8267 6.19586L4.18079 3.34275Z" fill="#E4761B" stroke="#E4761B" strokeLinecap="round" strokeLinejoin="round"/>
       <path d="M22.4388 19.4727L19.9435 23.2957L25.2825 24.7646L26.8173 19.5574L22.4388 19.4727Z" fill="#E4761B" stroke="#E4761B" strokeLinecap="round" strokeLinejoin="round"/>

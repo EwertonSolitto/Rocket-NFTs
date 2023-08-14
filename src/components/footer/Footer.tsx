@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex justify-between gap-6 items-center pb-14">
           <RocketBlogLogo width={276} height={43}/>
           <div>
-            <button type="button" className="sm:p-7 p-2.5 bg-rose-500" onClick={toTop}>
+            <button type="button" className="sm:p-7 p-2.5 bg-rose-500" onClick={toTop} aria-label="to Top button" aria-labelledby="botão para cima">
               <ArrowBlack width={23} height={23} />
             </button>
           </div>
@@ -43,16 +43,16 @@ export default function Footer() {
         <div className="flex sm:gap-12 gap-6 sm:flex-row flex-col items-center justify-between pt-16">
           <a href="https://www.rocketseat.com.br" className="text-xl hover:text-white focus:text-white duration-300 ease-out">www.rocketseat.com.br</a>
           <div className="social-media-logos flex gap-12 ">
-            <a href="/" className="footer-social-media-logo">
+            <a href="/" className="footer-social-media-logo" aria-labelledby="Ir ao Instagram">
               <Instagram />
             </a>
-            <a href="/" className="footer-social-media-logo">
+            <a href="/" className="footer-social-media-logo" aria-labelledby="Ir ao Youtube">
               <Youtube />
             </a>
-            <a href="/" className="footer-social-media-logo">
+            <a href="/" className="footer-social-media-logo" aria-labelledby="Ir ao Twitter">
               <Twitter />
             </a>
-            <a href="/" className="footer-social-media-logo">
+            <a href="/" className="footer-social-media-logo" aria-labelledby="Enviar email">
               <Mail />
             </a>
           </div>
